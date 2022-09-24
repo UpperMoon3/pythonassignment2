@@ -1,0 +1,6 @@
+import os;
+directory = "Madi"
+parent_dir = "/Users/madi/Desktop"
+path = os.path.join(parent_dir, directory)
+os.makedirs(path)
+print("Directory '% s' created" % directory)
