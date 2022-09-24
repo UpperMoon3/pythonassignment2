@@ -1,0 +1,3 @@
+import os;
+file_path = "D:/Users/madi/Desktop/Madi"
+os.remove(file_path)
