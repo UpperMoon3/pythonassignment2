@@ -1,0 +1,16 @@
+import sys
+def mydecorator(func): 
+    def changer(*args, **kwargs): 
+        result = func(*args, **kwargs) 
+        if type(result) == str: 
+            return result.swapcase() 
+        else: 
+            return result 
+    return changer 
+@mydecorator 
+def make_input(): 
+    if len(sys.argv) > 1: 
+        return sys.argv[1] 
+    else: 
+        return input("your word please: ") 
+print(make_input())
