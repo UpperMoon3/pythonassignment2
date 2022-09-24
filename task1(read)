@@ -1,0 +1,5 @@
+import os;
+path = "/Users/madi/Desktop/Madi"
+List = os.listdir(path)
+print("Files and Directoris in'", path, "' :")
+print(List)
