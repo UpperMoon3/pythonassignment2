@@ -1,0 +1,3 @@
+import os;
+os.chdir("/Users/madi/Desktop/Madi")
+print("directory changed")
